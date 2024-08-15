@@ -1,0 +1,137 @@
+body{
+    font-family: Outfit;
+    margin: 0;
+}
+body::-webkit-scrollbar{display: none;}
+.header-books{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    background-color: #ffe5e5;
+    padding: 0 110px;
+    color: #5c4f4f;
+    margin-bottom: 100px;
+}
+body p{
+    font-size: 60px;
+    font-weight: 500;
+}
+#my-list-of-books, #book-rows, #text-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+#book-row{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+#my-list-of-books{
+    height: 500px;
+}
+#p-div{
+    width: 70%;
+}
+#my-list-of-books p{
+    align-self: flex-start;
+}
+#book-rows{
+    width: 100%;
+    height: 350px;
+}
+#book-row{
+    font-size: 40px;
+    color:  #756AB6;
+}
+label {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 60px;
+    border: solid 8px;
+    border-radius: 20px;
+    background-color: rgba(238, 238, 238, 0);
+  }
+  label:hover input ~ .checkmark {
+    background-color: rgb(255, 255, 255);
+  }
+  label input:checked ~ .checkmark {
+    background-color: #ffffff;
+  }
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  label input:checked ~ .checkmark:after {
+    display: block;
+  }
+  label .checkmark:after {
+    left: 15px;
+    top: 6px;
+    width: 15px;
+    height: 30px;
+    transform: scale(0.4);
+    border: solid 10px #756AB6;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    transform: rotate(40deg);
+  }
+#book-row-name{
+    height: 100px;
+}
+#text-btn{
+    margin-top: 100px;
+    height: 340px;
+}
+#book-enter-name{
+    width: 40%;
+    height: 200px;
+    border: solid 3px #756AB6;
+    border-radius: 10px;
+    padding-left: 100px;
+    font-size: 25px;
+    color: #47406d;
+}
+#book-enter-name::placeholder{
+    font-size: 25px;
+    text-align: center;
+    margin-left: 100px;
+}
+#add-to-my-list-btn{
+    background-color: #AC87C5;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    width: 300px;
+    height: 70px;
+    transition: all 0.3s ease;
+}
+#add-to-my-list-btn:hover{
+    background-color: #806492;
+}

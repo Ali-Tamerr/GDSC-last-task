@@ -1,0 +1,199 @@
+body{
+    font-family: Corbel;
+    margin: 50px;
+}
+body::-webkit-scrollbar{display: none;}
+
+.logo-1{
+    position: absolute;
+    top: 30px;
+    left: 160px;
+    cursor: pointer;
+}
+.login-section{
+    display: flex;
+    justify-content: center;
+    height:1100px;
+}
+.login-section-div-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 130px;
+}
+.empty-field{
+    background-color: rgba(39, 39, 39, 0.329);
+    flex: 1;
+    border-radius: 30px;
+}
+.welcome-back{
+    font-size:60px;
+    font-weight:900;
+    word-spacing: 10px;
+}
+.login-section-div-5{
+    display: flex;
+    flex-direction: column;
+}
+.login-section-div-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 130px;
+    margin-top: 100px;
+}
+.login-section-div-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+}
+.login-section-div-4{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    height: 200px;
+    align-items: flex-start;
+}
+.input-btn-1,.input-btn-2{
+    background-color: rgba(94, 91, 91, 0.103);
+    border: none;
+    border-radius: 10px;
+    padding-left: 50px;
+    height: 120px;
+    color: rgba(0, 0, 0, 0.521);
+    font-size: 30px;
+}
+.input-btn-3, .input-btn-4{
+    background-color: rgba(94, 91, 91, 0.103);
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    padding-left: 50px;
+    height: 120px;
+    color: rgba(0, 0, 0, 0.521);
+    font-size: 30px;
+}
+.input-btn-1::placeholder, .input-btn-2::placeholder{ 
+    color: rgba(0, 0, 0, 0.301);
+    font-family: Corbel;
+    font-size: 30px;
+    letter-spacing: 0px;
+    padding-left: 50px;
+}
+.input-btn-3::placeholder, .input-btn-4::placeholder{
+    color: rgba(0, 0, 0, 0.301);
+    font-family: Corbel;
+    font-size: 25px;
+    letter-spacing: 0px;
+    padding-left: 50px;
+}
+#pass{
+    letter-spacing: 15px;
+}
+.login-section-span{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.63);
+    white-space: nowrap;
+}
+.login-section-span a{
+    margin-left: 20px;
+    color: #8b7ed8;
+}
+.login{
+    border: none;
+    width: 350px;
+    height: 90px;
+    color: white;
+    background-color: #8b7ed8;
+    transition: all 0.3s ease;
+    font-size: 30px;
+    font-family: Corbel;
+    border-radius: 15px;
+    align-self: center;
+    cursor: pointer;
+}
+.login:hover{
+    background-color: #6f65ac;
+}
+@media(max-width:1440px){
+    .login-section{
+        display: flex;
+        justify-content: center;
+        height:850px;
+    }
+    .login-section-div-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 50px;
+        padding-top: 10px;
+    }
+    .login-section-div-4{
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        height: 150px;
+        align-items: flex-start;
+    }
+    .login-section-div-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 270px;
+    }
+}
+@media (max-width:1050px){
+    .empty-field{display: none;}
+    .logo-1{
+        position: absolute;
+        top: 30px;
+        left: 100px;
+        cursor: pointer;
+    }
+    .welcome-back{
+        font-size:38px;
+        font-weight:900;
+        word-spacing: 5px;
+    }
+    .login-section-div-3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100px;
+        margin-top: 100px;
+    }
+    .input-btn-1,.input-btn-2{
+        background-color: rgba(94, 91, 91, 0.103);
+        border: none;
+        border-radius: 10px;
+        padding-left: 20px;
+        height: 120px;
+        color: rgba(0, 0, 0, 0.521);
+        font-size: 25px;
+    }
+    .input-btn-3, .input-btn-4{
+        background-color: rgba(94, 91, 91, 0.103);
+        border: none;
+        width: 100%;
+        border-radius: 10px;
+        padding-left: 20px;
+        height: 120px;
+        color: rgba(0, 0, 0, 0.521);
+        font-size: 25px;
+    }
+    .input-btn-1::placeholder, .input-btn-2::placeholder{ 
+        color: rgba(0, 0, 0, 0.301);
+        font-family: Corbel;
+        font-size: 25px;
+        letter-spacing: 0px;
+        padding-left: 50px;
+    }
+    .input-btn-3::placeholder, .input-btn-4::placeholder{
+        color: rgba(0, 0, 0, 0.301);
+        font-family: Corbel;
+        font-size: 20px;
+        letter-spacing: 0px;
+        padding-left: 10px;
+    }
+}

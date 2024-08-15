@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Description</title>
+    <link rel="stylesheet" href="min.css">
+    <link rel="stylesheet" href="the-water.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="header">
+        <img class="header-logo" onclick="window.location.href='login-section.html'" src="images/Frame 51 purple.png" alt="" class="">
+        <div class="header-components">
+            <span class="header-s-span" onclick="window.location.href='index.html'">Home</span>
+            <span onclick="goToCategories()">Categories</span>
+            <span onclick="window.location.href='my-list.html'">My List</span>
+            <span onclick="window.location.href='contact-us.html'">Contact Us</span>
+        </div>
+    </div>
+    <div id="book-review">
+            <img src="4png.png" class="iii">
+        <div id="book-desc">
+            <div class="kkk">
+                <img src="14png.png" class="ttt">
+              <button onclick="window.location.href='index.html'">Add To My List</button>
+            </div>
+            <div id="author-book">
+                <img src="6png.png" alt="" class="ttt2"><br>
+                <div class="text-1">
+                    <h5 >About The Author</h5>
+                    <p >Lorem ipsum dolor sit amet consectetur. Gravida et faucibus egestas mauris tincidunt risus eget justo lorem. Tincidunt fringilla quis mi nec ipsum ut sodales. Nec risus id diam congue condimentum enim.</p>
+                </div>
+                <div class="text-2">  
+                    <h6 >About The Books</h6>
+                    <p >Lorem ipsum dolor sit amet consectetur. Tortor mauris scelerisque diam porttitor cursus a non tellus. Mi nam ligula odio nisl id tellus. A pulvinar tempor purus iaculis fames dolor faucibus ultricies massa. Duis aliquam ac sed id ornare placerat in mi. Bibendum vulputate integer auctor porttitor luctus ornare nibh etiam mauris.</p>
+                </div>
+            </div>
+            <div id="reviews">
+                <div class="yyy">
+                    <h3>Reviews</h3>
+                    <button >Write A Review</button>
+                </div>
+            </div>
+            <img src="15png.png" class="www">
+        </div>
+    </div>
+    <div id="carousel-headers">
+        <span class="recommended-for-you">Recommended For You</span>
+        <button class="view-all" onclick="window.location.href='books-section.html'">View all →</button>
+    </div>
+
+      <div id="carousel-container-div">
+        <div id="carousel-container">
+            <button id="carousel-button" onclick="prevSlide()">
+                <img src="images/ep_arrow-right-bold (1).png" alt="">
+            </button>
+            <div id="carousel-div">
+                <div id="carousel">
+                    <div id="carousel-item">
+                        <img id="carousel-item-img" src="images/Rectangle 336.png" alt="">
+                        <div id="carousel-item-div">
+                            <span id="carousel-item-span">Hitchhike through the Galaxy</span>
+                            <div id="carousel-item-span-div">
+                                <span id="carousel-item-price">$15.99</span>
+                                <button id="carousel-item-button" onclick="window.location.href ='the-water.html'">View</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="carousel-item">
+                        <img id="carousel-item-img" src="images/Rectangle 334.png" alt="">
+                        <div id="carousel-item-div">
+                            <span id="carousel-item-span">Wonderland</span>
+                            <div id="carousel-item-span-div">
+                                <span id="carousel-item-price">$15.99</span>
+                                <button id="carousel-item-button" onclick="window.location.href ='the-water.html'">View</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="carousel-item">
+                        <img id="carousel-item-img" src="images/Rectangle 332.png" alt="">
+                        <div id="carousel-item-div">
+                            <span id="carousel-item-span">Wuthering Heights</span>
+                            <div id="carousel-item-span-div">
+                                <span id="carousel-item-price">$15.99</span>
+                                <button id="carousel-item-button" onclick="window.location.href ='the-water.html'">View</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="carousel-item">
+                        <img id="carousel-item-img" src="images/Rectangle 331.png" alt="">
+                        <div id="carousel-item-div">
+                            <span id="carousel-item-span">Hogwarts</span>
+                            <div id="carousel-item-span-div">
+                                <span id="carousel-item-price">$15.99</span>
+                                <button id="carousel-item-button" onclick="window.location.href ='the-water.html'">View</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="carousel-item">
+                        <img id="carousel-item-img" src="images/Rectangle 328.png" alt="">
+                        <div id="carousel-item-div">
+                            <span id="carousel-item-span">Ann Patchett</span>
+                            <div id="carousel-item-span-div">
+                                <span id="carousel-item-price">$15.99</span>
+                                <button id="carousel-item-button" onclick="window.location.href ='the-water.html'">View</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="carousel-item">
+                        <img id="carousel-item-img" src="images/Rectangle 327.png" alt="">
+                        <div id="carousel-item-div">
+                            <span id="carousel-item-span">Lady tan's circle of women</span>
+                            <div id="carousel-item-span-div">
+                                <span id="carousel-item-price">$15.99</span>
+                                <button id="carousel-item-button" onclick="window.location.href ='the-water.html'">View</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="carousel-item">
+                        <img id="carousel-item-img" src="images/Rectangle 326.png" alt="">
+                        <div id="carousel-item-div">
+                            <span id="carousel-item-span">The WAGER</span>
+                            <div id="carousel-item-span-div">
+                                <span id="carousel-item-price">$15.99</span>
+                                <button id="carousel-item-button" onclick="window.location.href ='the-water.html'">View</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="carousel-item">
+                        <img id="carousel-item-img" src="images/Rectangle 333.png" alt="">
+                        <div id="carousel-item-div">
+                            <span id="carousel-item-span">The Covenant of Water</span>
+                            <div id="carousel-item-span-div">
+                                <span id="carousel-item-price">$15.99</span>
+                                <button id="carousel-item-button" onclick="window.location.href ='the-water.html'">View</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="carousel-item">
+                        <img id="carousel-item-img" src="images/Rectangle 324.png" alt="">
+                        <div id="carousel-item-div">
+                            <span id="carousel-item-span">The Devil in the White City</span>
+                            <div id="carousel-item-span-div">
+                                <span id="carousel-item-price">$15.99</span>
+                                <button id="carousel-item-button" onclick="window.location.href ='the-water.html'">View</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="carousel-item">
+                        <img id="carousel-item-img" src="images/Rectangle 323.png" alt="">
+                        <div id="carousel-item-div">
+                            <span id="carousel-item-span">The Leftover Woman</span>
+                            <div id="carousel-item-span-div">
+                                <span id="carousel-item-price">$15.99</span>
+                                <button id="carousel-item-button" onclick="window.location.href ='the-water.html'">View</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button id="carousel-button" onclick="nextSlide()">
+                <img src="images/ep_arrow-right-bold.png" alt="">
+            </button>
+        </div>
+    </div>
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+        <div class="end">
+            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                   <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                       <div class="Amet">
+                          <img src="images/Frame 51.png" alt="" width="200px">
+                          <p>Amet Mauris Ultricies Quis Amealiquet Scelerisque Suspendisse Scelerisque Massa. </p>
+                       </div>
+                   </div>
+                  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">
+                    Quick Links </h6>
+                    <ul class="nav flex-column">
+                       <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                       <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Categories</a></li>
+                       <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">My List</a></li>
+                       <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact</a></li>
+                     </ul>
+                   </div>
+                   <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                        Contacts
+                      </h6>
+                      <ul class="nav flex-column">
+                       <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Facebook</a></li>
+                       <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Instgram</a></li>
+                       <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Twitter</a></li>
+                     </ul>
+                   </div>
+                  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <p>Visit Us To See Our Website</p>
+                  </div>
+               </section>
+               <div class="Copyright">
+                   <p class="col-md-4 mb-0 text-muted"><span>Copyright </span>© <span>2023 All rights reseved </span></p>
+               </div>
+               <div class="col-md-12">
+                  <div class="py-4 d-flex justify-content-center align-items-center" id="py-4">
+                      <a class="mr-4" href="../privacy.html">Terms & Condition</a>
+                     <a href="../sitemap.xml">Privacy Policy</a>
+                  </div>
+               </div>
+           </div>
+       </footer>
+</body>
+</html>

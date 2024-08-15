@@ -1,0 +1,288 @@
+body{
+    font-family: Outfit;
+    margin: 0;
+}
+body::-webkit-scrollbar{display: none;}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    background-color: #FFE5E5;
+    padding: 0 110px;
+}
+
+.header-logo{
+    margin-right: 70px;
+    cursor: pointer;
+}
+.header-components{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 750px;
+    font-size: 35px;
+}
+.header-books-components{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 750px;
+    font-size: 35px;
+}
+.header-components span{
+    cursor: pointer;
+    margin-right: 20px;
+}
+.header-books-components span{
+    cursor: pointer;
+    color: #6e5f5f;
+}
+.col-md-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    align-items: center;
+}
+.col-md-2 ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.col-md-2 h6{
+    width: 200px;
+    height: 7px;
+    font-family:Outfit ;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 7px;
+    letter-spacing: 0.2px;
+    align-self: center;
+    color: #FFFFFF;
+    margin: 20px 0;
+}
+.col-md-3 h6{
+    width: 125px;
+    height: 7px;
+    font-family:Outfit ;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 7px;
+    letter-spacing: 0.2px;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.col-md-2 ul li a{
+    width: 95px;
+    height:60px;
+    font-size: 20px;
+    font-family: Outfit;
+    font-weight: 500;
+    line-height: 25.2px;
+    color: #756AB6;
+    gap: 30px;
+    align-self: center;
+}
+.col-md-3 ul li a{
+    width: 112px;
+    height: 70px;
+    font-size: 20px;
+    font-family: Outfit;
+    font-weight: 500;
+    line-height: 25.2px;
+    color: #756AB6;
+    gap: 10px;
+    padding: 10px;
+}
+/* .contact-me h5{
+    text-align: right;
+    width: 266px;
+    height: 63px;
+    margin-left: 922px;
+    margin-top:-900px ;
+    font-family: Outfit;
+    font-size: 50px;
+    line-height: 63px;
+    letter-spacing:0.2px ;
+    color: #000000;
+}
+.contact-me p{
+    text-align: right;
+    width: 389px;
+    height: 38px;
+    margin-left: 860px;
+    font-family: Outfit;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 37.8px;
+    color: #000000BF;
+}
+.contact form{
+    width: 577px;
+    height: 764px;
+    margin-left:766px ;
+    gap: 68px;
+    text-align: left;
+}
+.contact-me form label{
+    font-family: Outfit;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50.4px;
+    color: #000000BF;
+}
+.contact-me form input{
+    width: 577px;
+    height: 84px;
+    border-radius: 20px;
+    border: 1px solid #756AB6;
+    padding: 27px, 18px, 27px, 18px;
+    gap: 10px;
+}
+.contact-me form textarea{
+    width: 577px;
+    height: 186px;
+    border-radius: 20px;
+    padding: 24px, 16px, 24px, 16px;
+    gap: 10px;
+    border: 1px solid #756AB6;
+}
+.contact-me form .btn-6{
+    width: 240px;
+    height: 65px;
+    border-radius: 10px;
+    padding: 10px, 20px, 10px, 20px;
+    gap: 10px;
+    background-color: #756AB6;
+    color: #FFFFFF;
+    font-family: Outfit;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32.76px;
+    align-items: center;
+    margin-left: 140px;
+    margin-top: 160px;
+}
+.contact-me form .btn-6:hover{
+    background-color: #FFFFFF;
+    color:#756AB6 ;
+}
+.end{
+    width: 2000px;
+    height:490px ;
+    background-color: #BA94D1;
+    margin-top: 50px;
+}
+.Amet h5{
+    width: 180px;
+    height: 22px;
+    font-family: Pacifico;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 22px;
+    letter-spacing:0.2px ;
+    color: #756AB6;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.Amet p{
+    font-family: Outfit;
+  font-size: 20px;
+   font-weight: 500;
+   line-height: 25.2px;
+   text-align: left;
+   width: 234px;
+   height: 111px;
+   gap: 0px;
+   opacity: 0px;
+   color: #FFFFFF; 
+   padding-top: 10px;
+   margin-left: 70px;
+   margin-top: 70px;  
+}
+.col-md-2 h6{
+    width: 200px;
+    height: 7px;
+    font-family:Outfit ;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 7px;
+    letter-spacing: 0.2px;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.col-md-3 h6{
+    width: 125px;
+    height: 7px;
+    font-family:Outfit ;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 7px;
+    letter-spacing: 0.2px;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.col-md-2 ul li a{
+    width: 95px;
+    height:60px;
+    font-size: 20px;
+    font-family: Outfit;
+    font-weight: 500;
+    line-height: 25.2px;
+    color: #756AB6;
+    gap: 30px;
+    margin-left: 50px;
+}
+.col-md-3 ul li a{
+    width: 112px;
+    height: 70px;
+    font-size: 20px;
+    font-family: Outfit;
+    font-weight: 500;
+    line-height: 25.2px;
+    color: #756AB6;
+    gap: 10px;
+    padding: 10px;
+}
+.col-md-4 p{
+    width: 308px;
+    height: 66px;
+    font-family: Outfit;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32.76px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.Copyright p {
+    width:500px;
+    height: 24px;
+    margin-top: 30px;
+    margin-left:82px ;
+    gap: 5px;
+}
+.Copyright p span{
+    font-size: 16px;
+    font-family: Outfit;
+    font-weight: 400;
+    line-height: 20.16px;
+    color: #FFFFFF;
+}
+.py-4 a{
+     width:1290px;
+     height: 20px;
+     margin-top: -100px;
+     margin-left: 891px;
+     font-size: 16px;
+     font-family: Outfit;
+     font-weight: 400;
+     line-height: 20.16px;
+     color: #FFFFFF;
+} */
